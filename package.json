@@ -1,6 +1,6 @@
 {
   "name": "redirect-to-https",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Redirect a http page to https",
   "main": "index.js",
   "scripts": {
