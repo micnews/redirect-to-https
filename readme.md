@@ -1,6 +1,7 @@
 # redirect-to-https
 
-Redirect a http page to https
+Redirect a http page to https[![build status](https://secure.travis-ci.org/micnews/redirect-to-https.png)](http://travis-ci.org/micnews/redirect-to-https)
+
 
 [![NPM](https://nodei.co/npm/redirect-to-https.png?downloads&stars)](https://nodei.co/npm/redirect-to-https/)
 
