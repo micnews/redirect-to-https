@@ -51,6 +51,15 @@ test('x-forwarded-proto=http', function (t) {
   })
 })
 
+test('x-forwarded-proto=http, redirectToHttps() should return true', function (t) {
+  var headers = { 'x-forwarded-proto': 'http' }
+    , server = http.createServer(function (req, res) {
+        t.equal(toHttps(req, res), true)
+      })
+
+  servertest(server, '/', { headers: headers }, function () { t.end() })
+})
+
 test('x-forwarded-proto=http, x-forwarded-host=example.com', function (t) {
   var headers = {
           'x-forwarded-proto': 'http'

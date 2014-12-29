@@ -7,6 +7,7 @@ var redirectToHttps = function (req, res) {
       res.setHeader('location', 'https://' + host + req.url)
       res.statusCode = 301
       res.end()
+      return true
     }
 
 module.exports = redirectToHttps
