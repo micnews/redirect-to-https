@@ -16,9 +16,7 @@
     "url": "https://github.com/micnews/http-to-https/issues"
   },
   "homepage": "https://github.com/micnews/http-to-https",
-  "dependencies": {
-    "predirect": "^1.1.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "servertest": "^1.2.0",
     "tape": "^3.0.3"
