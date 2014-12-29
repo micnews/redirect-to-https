@@ -1,4 +1,4 @@
-var httpToHttps = function (req, res) {
+var redirectToHttps = function (req, res) {
       if (!req.headers['x-forwarded-proto']) return false
       if (req.headers['x-forwarded-proto'] === 'https') return false
 
@@ -9,4 +9,4 @@ var httpToHttps = function (req, res) {
       res.end()
     }
 
-module.exports = httpToHttps
+module.exports = redirectToHttps
