@@ -1,19 +1,17 @@
-# http-to-https
+# redirect-to-https
 
 Redirect a http page to https
 
-[![NPM](https://nodei.co/npm/http-to-https.png?downloads&stars)](https://nodei.co/npm/http-to-https/)
+[![NPM](https://nodei.co/npm/redirect-to-https.png?downloads&stars)](https://nodei.co/npm/redirect-to-https/)
 
-[![NPM](https://nodei.co/npm-dl/http-to-https.png)](https://nodei.co/npm/http-to-https/)
+[![NPM](https://nodei.co/npm-dl/redirect-to-https.png)](https://nodei.co/npm/redirect-to-https/)
 
 ## Usage
-
-
 
 ## Installation
 
 ```
-npm install http-to-https
+npm install redirect-to-https
 ```
 
 ## License
