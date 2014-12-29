@@ -20,6 +20,7 @@
     "predirect": "^1.1.0"
   },
   "devDependencies": {
+    "servertest": "^1.2.0",
     "tape": "^3.0.3"
   }
 }
