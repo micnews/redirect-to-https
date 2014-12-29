@@ -6,6 +6,10 @@ Redirect a http page to https
 
 [![NPM](https://nodei.co/npm-dl/http-to-https.png)](https://nodei.co/npm/http-to-https/)
 
+## Usage
+
+
+
 ## Installation
 
 ```

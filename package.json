@@ -1,5 +1,5 @@
 {
-  "name": "http-to-https",
+  "name": "redirect-to-https",
   "version": "0.0.0",
   "description": "Redirect a http page to https",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/micnews/http-to-https"
+    "url": "https://github.com/micnews/redirect-to-https"
   },
   "author": "David Björklund <david@mic.com> (http://mic.com/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/micnews/http-to-https/issues"
+    "url": "https://github.com/micnews/redirect-to-https/issues"
   },
-  "homepage": "https://github.com/micnews/http-to-https",
+  "homepage": "https://github.com/micnews/redirect-to-https",
   "dependencies": {},
   "devDependencies": {
     "servertest": "^1.2.0",
